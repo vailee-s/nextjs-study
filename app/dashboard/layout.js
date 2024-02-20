@@ -3,6 +3,9 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
+
+// 层级 layout 包裹 template 组件 再包裹 page 组件 
+
 export default function Layout({ children }) {
   const [count, setCount] = useState(0)
   return (
